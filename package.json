@@ -52,7 +52,6 @@
     "rupture": "^0.6.1",
     "stream-combiner": "^0.2.2",
     "stylus": "^0.54.2",
-    "stylus-loader": "^2.0.0",
     "typographic": "^2.9.3",
     "underscore.string": "^3.3.4",
     "webpack": "^1.13.0",
