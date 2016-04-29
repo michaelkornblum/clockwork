@@ -8,12 +8,14 @@ let obj = {
     'styles',
     'webpack',
     'images',
+    'vectors'
     'server',
     [
       'watch:metalsmith',
       'watch:styles',
       'watch:webpack',
-      'watch:images'
+      'watch:images',
+      'watch:vectors'
     ]
   ],
   proc: function() {
