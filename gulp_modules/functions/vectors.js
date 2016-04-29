@@ -4,8 +4,8 @@ import _g from 'gulp-load-plugins';
 export default function() {
   return combiner(
     _g().svgmin(),
-    _g(svgSymbols({
+    _g().svgSymbols({
       templates: ['default-svg']
-    }))
+    })
   );
 }

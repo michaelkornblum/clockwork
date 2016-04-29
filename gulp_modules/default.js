@@ -8,7 +8,7 @@ let obj = {
     'styles',
     'webpack',
     'images',
-    'vectors'
+    'vectors',
     'server',
     [
       'watch:metalsmith',

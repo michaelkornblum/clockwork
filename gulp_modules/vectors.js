@@ -9,6 +9,6 @@ let obj = {
   watchDir: './vectors/**/*'
 }
 
-let task = new StreamTask();
+let task = new StreamTask(obj);
 task.execute();
 task.watch();
