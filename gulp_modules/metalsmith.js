@@ -1,3 +1,5 @@
+/*jshint esversion: 6*/
+
 import StreamTask from './classes/StreamTask';
 import proc from './functions/metalsmith';
 
@@ -8,9 +10,9 @@ let obj = {
   dest: './build',
   watchDir: [
     './src/**/*',
-    './layouts/**/*'
-  ]
-}
+    './layouts/**/*',
+  ],
+};
 
 let task = new StreamTask(obj);
 task.execute();

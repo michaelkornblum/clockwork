@@ -1,3 +1,5 @@
+/*jshint esversion: 6*/
+
 import StreamTask from './classes/StreamTask';
 import proc from './functions/images';
 
@@ -6,8 +8,8 @@ let obj = {
   src: './images/**/*',
   proc,
   dest: './build/images',
-  watchDir: './images/**/*'
-}
+  watchDir: './images/**/*',
+};
 
 let task = new StreamTask(obj);
 task.execute();

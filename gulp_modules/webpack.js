@@ -1,3 +1,5 @@
+/*jshint esversion: 6*/
+
 import StreamTask from './classes/StreamTask';
 import proc from './functions/webpack';
 
@@ -9,9 +11,9 @@ let obj = {
   watchDir: [
     'scripts/**/*.js',
     'scripts/**/*.coffee',
-    'scripts/**/*.es6'
-  ]
-}
+    'scripts/**/*.es6',
+  ],
+};
 
 let task = new StreamTask(obj);
 task.execute();

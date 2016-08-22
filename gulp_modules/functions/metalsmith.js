@@ -1,5 +1,8 @@
+/*jshint esversion: 6*/
+
 import metalsmith from 'gulp-metalsmith';
 import _m from 'load-metalsmith-plugins';
+
 // javascript libraries for jade
 import _s from 'underscore.string';
 import _ from 'lodash';
@@ -9,10 +12,10 @@ export default function() {
   return metalsmith({
     use: [
       _m().metadata({
-        site: 'data/site.json'
+        site: 'data/site.json',
       }),
       _m().markdown({
-        gfm: true
+        gfm: true,
       }),
       _m().inPlace({
         engine: 'jade',
@@ -20,31 +23,31 @@ export default function() {
         _s,
         moment,
         rename: true,
-        pretty: true
+        pretty: true,
       }),
       _m().collections({
         posts: {
           pattern: 'posts/**/*.html',
           sortBy: 'date',
-          reverse: true
+          reverse: true,
         },
         pages: {
-          pattern: '!posts/**/*.html'
-        }
+          pattern: '!posts/**/*.html',
+        },
       }),
       _m().permalinks({
         linksets: [
           {
-            match: {collection: 'posts'},
+            match: { collection: 'posts' },
             pattern: 'posts/:date/:title',
-            relative: false
+            relative: false,
           },
           {
-            match: {collection: true},
+            match: { collection: true },
             pattern: ':title',
-            relative: false
-          }
-        ]
+            relative: false,
+          },
+        ],
       }),
       _m().layouts({
         engine: 'jade',
@@ -52,8 +55,8 @@ export default function() {
         _,
         _s,
         moment,
-        pretty: true
-      })
-    ]
+        pretty: true,
+      }),
+    ],
   });
 }

@@ -1,5 +1,8 @@
+/*jshint esversion: 6*/
+
 import combiner from 'stream-combiner';
 import _g from 'gulp-load-plugins';
+
 // stylus plugins
 import nib from 'nib';
 import typographic from 'typographic';
@@ -17,10 +20,10 @@ export default function() {
           [
             'lost',
             'autoprefixer',
-            'rucksack-css'
+            'rucksack-css',
           ]
-        )
-      ]
+        ),
+      ],
     }),
     _g().csso()
   );

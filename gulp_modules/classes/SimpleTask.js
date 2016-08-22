@@ -1,3 +1,5 @@
+/*jshint esversion: 6*/
+
 import gulp from 'gulp';
 import watch from 'gulp-watch';
 import BaseTask from './BaseTask';
@@ -8,6 +10,7 @@ export default class SimpleTask extends BaseTask {
       this.proc();
     });
   }
+
   watch() {
     return gulp.task(`watch:${this.name}`, () => {
       gulp.src(this.watchDir)

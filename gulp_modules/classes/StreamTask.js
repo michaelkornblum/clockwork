@@ -1,3 +1,5 @@
+/*jshint esversion: 6*/
+
 import gulp from 'gulp';
 import SimpleTask from './SimpleTask';
 
