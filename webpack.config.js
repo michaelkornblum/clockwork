@@ -1,48 +1,48 @@
-var webpack = require('webpack')
+var webpack = require('webpack');
 var path = require('path');
 
 module.exports = {
   output: {
-    filename: './bundle.js'
+    filename: './bundle.js',
   },
   devtool: 'source-map',
   plugins: [
     new webpack.ProvidePlugin({
-      $: "jquery",
-      jQuery: "jquery",
-      "window.jQuery": "jquery"
+      $: 'jquery',
+      jQuery: 'jquery',
+      'window.jQuery': 'jquery',
     }),
     new webpack.optimize.UglifyJsPlugin({
       compress: {
-        warnings: false
-      }
-    })
+        warnings: false,
+      },
+    }),
   ],
   module: {
     preLoaders: [
       {
         test: /\.js$/,
         exclude: /node_modules/,
-        loader: 'jshint-loader'
-      }
+        loader: 'jshint-loader',
+      },
     ],
     loaders: [
       {
-        test:/\.coffee$/,
+        test: /\.coffee$/,
         exclude: /node_modules/,
-        loader: 'coffee-loader'
+        loader: 'coffee-loader',
       },
       {
-        test:/\.js$/,
+        test: /\.js$/,
         exclude: /node_modules/,
         loader: 'babel-loader',
         query: {
-          presets: ['es2015', 'react']
-        }
+          presets: ['es2015', 'react'],
+        },
       },
-    ]
+    ],
   },
   resolve: {
-    extensions: ['', '.js', '.es6', '.coffee']
-  }
-}
+    extensions: ['', '.js', '.es6', '.coffee'],
+  },
+};
