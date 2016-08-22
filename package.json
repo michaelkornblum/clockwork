@@ -30,7 +30,7 @@
     "gulp-svgmin": "^1.2.2",
     "gulp-watch": "^4.3.5",
     "jade": "^1.11.0",
-    "jquery": "^2.2.3",
+    "jquery": "^2.2.4",
     "jshint": "^2.9.2",
     "jshint-loader": "^0.8.3",
     "load-metalsmith-plugins": "^0.1.1",
