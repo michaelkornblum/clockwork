@@ -2,8 +2,8 @@
 import './hello';
 import $ from 'jquery';
 
-$(document).ready(function () {
+/*$(document).ready(function () {
   alert('hello world!');
-});
+}); */
 
-console.log('hello world!');
+//console.log('hello world!');
