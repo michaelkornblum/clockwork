@@ -1,12 +1,10 @@
 doctype html
 html(lang="en")
   head
-    include ./partials/head.jade
-    
+    include ./partials/head.pug
+
   body
     include ./partials/svg-symbols.svg
     .wrapper
-      include ./partials/header.jade
+      include ./partials/header.pug
     script(src="scripts/bundle.js")
-    
-  

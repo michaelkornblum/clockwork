@@ -18,7 +18,7 @@ export default function() {
         gfm: true,
       }),
       _m().inPlace({
-        engine: 'jade',
+        engine: 'pug',
         _,
         _s,
         moment,
@@ -50,8 +50,8 @@ export default function() {
         ],
       }),
       _m().layouts({
-        engine: 'jade',
-        default: 'default.jade',
+        engine: 'pug',
+        default: 'default.pug',
         _,
         _s,
         moment,

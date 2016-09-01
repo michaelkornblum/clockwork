@@ -1,6 +1,6 @@
 ---
 title: about
-layout: default.jade
+layout: default.pug
 ---
 
 this song is about me!
