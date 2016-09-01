@@ -55,7 +55,7 @@ export default function() {
         _,
         _s,
         moment,
-        pretty: true,
+        pretty: false,
       }),
     ],
   });

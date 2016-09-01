@@ -1,8 +1,12 @@
 doctype html
-html
+html(lang="en")
   head
     include ./partials/head.jade
+    
   body
     include ./partials/svg-symbols.svg
+    .wrapper
+      include ./partials/header.jade
+    script(src="scripts/bundle.js")
     
   

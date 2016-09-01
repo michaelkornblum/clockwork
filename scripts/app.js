@@ -1,9 +1,11 @@
 /*jshint esversion: 6*/
-import './hello';
 import $ from 'jquery';
 
-/*$(document).ready(function () {
-  alert('hello world!');
-}); */
+$(document).ready(function () {
+  $('.menu-link').on('click', function (e) {
+    e.preventDefault();
+    $('nav').toggleClass('open');
+  });
+});
 
 //console.log('hello world!');

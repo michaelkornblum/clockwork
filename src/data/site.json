@@ -1,4 +1,29 @@
 {
   "title" : "openavenues.org",
-  "description" : "an overview of services that Open Avenues offers to its clients and contractees"
+  "links" : [
+    {
+      "title" : "Home",
+      "href" : "/"
+    },
+    {
+      "title" : "Services",
+      "href" : "/services/"
+    },
+    {
+      "title" : "Clients",
+      "href" : "/clients/"
+    },
+    {
+      "title" : "About",
+      "href" : "/about/"
+    },
+    {
+      "title" : "News",
+      "href" : "/news/"
+    },
+    {
+      "title" : "Contribute",
+      "href" : "/contribution/"
+    }
+  ]
 }
