@@ -24,6 +24,7 @@ export default function() {
         moment,
         rename: true,
         pretty: true,
+        basedir: '/home/michael/Projects/open_avenues/src/content',
       }),
       _m().collections({
         posts: {
