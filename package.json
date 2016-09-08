@@ -55,7 +55,7 @@
     "stylus": "^0.54.2",
     "typographic": "^2.9.3",
     "underscore.string": "^3.3.4",
-    "webpack": "^1.13.0",
+    "webpack": "^1.13.2",
     "webpack-stream": "^3.2.0"
   }
 }
