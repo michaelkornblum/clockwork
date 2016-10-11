@@ -50,7 +50,7 @@
     "pug": "^2.0.0-beta6",
     "rucksack-css": "^0.8.6",
     "run-sequence": "^1.1.5",
-    "rupture": "^0.6.1",
+    "rupture": "^0.6.2",
     "stream-combiner": "^0.2.2",
     "stylus": "^0.54.2",
     "typographic": "^2.9.3",
