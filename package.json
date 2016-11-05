@@ -26,7 +26,7 @@
     "gulp-metalsmith": "^1.0.0",
     "gulp-postcss": "^6.2.0",
     "gulp-stylus": "^2.3.1",
-    "gulp-svg-symbols": "^2.0.0",
+    "gulp-svg-symbols": "^2.0.2",
     "gulp-svgmin": "^1.2.2",
     "gulp-watch": "^4.3.5",
     "jquery": "^3.1.0",
