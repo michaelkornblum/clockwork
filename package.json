@@ -48,7 +48,7 @@
     "node-libs-browser": "^1.0.0",
     "poststylus": "^0.2.3",
     "pug": "^2.0.0-beta6",
-    "rucksack-css": "^0.8.6",
+    "rucksack-css": "^0.9.0",
     "run-sequence": "^1.1.5",
     "rupture": "^0.6.1",
     "stream-combiner": "^0.2.2",
