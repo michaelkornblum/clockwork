@@ -53,7 +53,7 @@
     "rupture": "^0.6.1",
     "stream-combiner": "^0.2.2",
     "stylus": "^0.54.2",
-    "typographic": "^2.9.3",
+    "typographic": "^3.0.0",
     "underscore.string": "^3.3.4",
     "webpack": "^1.13.2",
     "webpack-stream": "^3.2.0"
